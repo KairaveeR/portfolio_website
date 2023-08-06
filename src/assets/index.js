@@ -31,9 +31,10 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import kishan from "./kissan.png";
 import portfolio from "./portfolio.png";
+import Experienceimg from "./Experience.png";
 
 export {
-  
+  Experienceimg,
   portfolio,
   kishan,
   onlinetransaction,

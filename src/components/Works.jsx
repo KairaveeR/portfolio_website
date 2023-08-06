@@ -42,25 +42,6 @@ const Projectcard = ({ index, name, description, tags, image }) => {
   )
 }
 
-const Experiencecard = ({ index, name, work, link }) => {
-  return (
-    <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
-      <Tilt
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 1000
-        }}
-        className="bg-tertiary p-5 rounded-2xl">
-        <div className='mt-5'>
-          <h3 className='text-white font-bold text-[24px]'><a href="https://ldce.ac.in/team">{name}</a></h3>
-          <p className='mt-2 text-secondary text-[14px]'><a href="https://ldce.ac.in/team">{work}</a></p>
-          </div>
-        
-      </Tilt>
-    </motion.div>
-  )
-}
 
 const Works = () => {
   return (
@@ -83,19 +64,7 @@ const Works = () => {
             {...project} />
         ))}
       </div>
-      <motion.div variants={textVariant()} className='mt-10'>
-        <h2 className={styles.sectionHeadText}>Experience.</h2>
-      </motion.div>
-      <div className="w-full flex">
-       
-      </div>
-      <div className='mt-20 flex flex-wrap gap-7'>
-        {Experience.map((Experience, index) => (
-          <Experiencecard key={`Experience-${index}`}
-            index={index}
-            {...Experience} />
-        ))}
-      </div>
+      
     </div>
   )
 }

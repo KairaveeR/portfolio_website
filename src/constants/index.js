@@ -1,4 +1,5 @@
 import {
+    Experienceimg,
     kishan,
     laravel,
     android,
@@ -208,6 +209,28 @@ import {
       ],
       image: portfolio,
     },
+    {
+      name: 'Experience',
+      description: "Maintainance of LDCE WEBSITE with various updates and new features, this website is made using laravel. Where we I contributed in creating some pages where I created slider and we have also worked to create department google website.",
+      tags:[
+        {
+          name: "laravel",
+          color: "blue-text-gradient",
+        }
+        ,
+        {
+          name: "php",
+          color: "green-text-gradient",
+        }
+        ,
+        {
+          name: "css",
+          color: "pink-text-gradient",
+        }
+        ,
+      ],
+      image: Experienceimg,
+    } , 
   ];
   
   export { Experience, services, technologies, testimonials, projects , contacts };
