@@ -55,7 +55,7 @@ import {
   const contacts=[
     {
       name:"Email",
-      link:"https://mail.google.com/mail/?view=cm&source=mailto&to=kairaveesr@gmail.com"
+      link:"mailTo:kairaveesr@gmail.com",
     },
     {
       name:"Phone",
